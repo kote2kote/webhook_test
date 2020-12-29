@@ -2,7 +2,7 @@
   <div class="container">
     <div>
       <logo />
-      <h1 class="title">webhook_test<br />はやくしてくれ！！</h1>
+      <h1 class="title">webhook_test<br />悟空！！はやくしてくれ！！</h1>
       <h2 class="subtitle">
         My exceptional Nuxt.js project
       </h2>
