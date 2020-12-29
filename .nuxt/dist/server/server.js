@@ -2607,14 +2607,63 @@ async function createApp(ssrContext, config = {}) {
         "hid": "description",
         "name": "description",
         "content": "My exceptional Nuxt.js project"
+      }, {
+        "hid": "charset",
+        "charset": "utf-8"
+      }, {
+        "hid": "mobile-web-app-capable",
+        "name": "mobile-web-app-capable",
+        "content": "yes"
+      }, {
+        "hid": "apple-mobile-web-app-title",
+        "name": "apple-mobile-web-app-title",
+        "content": "webhook_test"
+      }, {
+        "hid": "author",
+        "name": "author",
+        "content": "kote2"
+      }, {
+        "hid": "og:type",
+        "name": "og:type",
+        "property": "og:type",
+        "content": "website"
+      }, {
+        "hid": "og:title",
+        "name": "og:title",
+        "property": "og:title",
+        "content": "webhook_test"
+      }, {
+        "hid": "og:site_name",
+        "name": "og:site_name",
+        "property": "og:site_name",
+        "content": "webhook_test"
+      }, {
+        "hid": "og:description",
+        "name": "og:description",
+        "property": "og:description",
+        "content": "My exceptional Nuxt.js project"
       }],
       "link": [{
         "rel": "icon",
         "type": "image\u002Fx-icon",
         "href": "\u002Ffavicon.ico"
+      }, {
+        "rel": "shortcut icon",
+        "href": "\u002F_nuxt\u002Ficons\u002Ficon_64x64.5f6a36.png"
+      }, {
+        "rel": "apple-touch-icon",
+        "href": "\u002F_nuxt\u002Ficons\u002Ficon_512x512.5f6a36.png",
+        "sizes": "512x512"
+      }, {
+        "rel": "manifest",
+        "href": "\u002F_nuxt\u002Fmanifest.c786ff47.json",
+        "hid": "manifest"
       }],
       "style": [],
-      "script": []
+      "script": [],
+      "htmlAttrs": {
+        "lang": "en"
+      }
     },
     router,
     nuxt: {
