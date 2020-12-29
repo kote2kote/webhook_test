@@ -27,7 +27,7 @@ if ( isset( $_SERVER['HTTP_X_HUB_SIGNATURE'] ) && $_SERVER['HTTP_X_HUB_SIGNATURE
          * コマンド実行
          */
         exec( $command );
-        file_put_contents( LOG_FILE, date( "[Y-m-d H:i:s]" ) . " " . $_SERVER['REMOTE_ADDR'] . " " . $branch . " " . $payload['commits'][0]['message']. " " . "コマンド:". $commands . "\n", FILE_APPEND | LOCK_EX );
+        file_put_contents( LOG_FILE, date( "[Y-m-d H:i:s]" ) . " " . $_SERVER['REMOTE_ADDR'] . " " . $branch . " " . $payload['commits'][0]['message']. " " . "実行コマンド:". $command . "\n", FILE_APPEND | LOCK_EX );
       }
     }
   }
