@@ -10,6 +10,8 @@
 // var_dump( $ret );
 var_dump( exec( "whoami" ));
 var_dump( exec( "git -C /home/admin/web/webhook.kote2.tokyo/public_html/webhook_test pull" ));
+var_dump( exec( "git pull" ));
+var_dump( exec( "git pull origin main" ));
 var_dump( exec( "git -C /home/admin/web/webhook.kote2.tokyo/public_html/webhook_test status" ));
 var_dump( exec( "git status" ));
 var_dump( exec( "git -C /home/admin/web/webhook.kote2.tokyo/public_html/webhook_test remote -v" ));
