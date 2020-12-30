@@ -10,5 +10,5 @@ var_dump( system('ls', $ret) );
 var_dump( $ret );
 
 exec('git -C /home/admin/web/webhook.kote2.tokyo/public_html/webhook_test status', $output);
-echo $output;
+var_dump( $output );
  ?>
