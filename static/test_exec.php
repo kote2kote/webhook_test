@@ -8,7 +8,7 @@
 // echo "\n# system関数\n";
 // var_dump( system('ls', $ret) );
 // var_dump( $ret );
-
+var_dump( exec( "whoami" ));
 var_dump( exec( "git -C /home/admin/web/webhook.kote2.tokyo/public_html/webhook_test pull" ));
 var_dump( exec( "git -C /home/admin/web/webhook.kote2.tokyo/public_html/webhook_test status" ));
 var_dump( exec( "git status" ));
