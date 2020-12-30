@@ -9,6 +9,6 @@ echo "\n# system関数\n";
 var_dump( system('ls', $ret) );
 var_dump( $ret );
 
-exec('git -C /home/admin/web/webhook.kote2.tokyo/public_html/webhook_test status', $output);
+exec('git -C /home/admin/web/webhook.kote2.tokyo/public_html/webhook_test pull', $output);
 var_dump( $output );
  ?>
