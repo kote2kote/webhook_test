@@ -5,7 +5,7 @@ ini_set( 'error_reporting', E_ALL );
 /**
  * 設定ファイル読み込み
  */
-require_once( 'config.php' );
+require_once( dirname( __FILE__ ) . '/config.php' );
 file_put_contents( LOG_FILE, date( "[Y-m-d H:i:s]" ) . " Start Deploy\n", FILE_APPEND | LOCK_EX );
 /**
  * データ取得
