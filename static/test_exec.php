@@ -11,5 +11,8 @@
 
 var_dump( exec( "git -C /home/admin/web/webhook.kote2.tokyo/public_html/webhook_test pull" ));
 var_dump( exec( "git -C /home/admin/web/webhook.kote2.tokyo/public_html/webhook_test status" ));
+var_dump( exec( "git status" ));
+var_dump( exec( "git -C /home/admin/web/webhook.kote2.tokyo/public_html/webhook_test remote -v" ));
+var_dump( exec( "git remote -v" ));
 
  ?>
