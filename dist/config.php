@@ -11,5 +11,5 @@ define( 'SECRET_KEY', '09pulu07' );
  */
 $commands = array(
   'develop' => '',//developブランチ
-  'main'  => 'git -C /home/admin/web/webhook.kote2.tokyo/public_html/webhook_test pull' // mainブランチ
+  'main'  => "echo '09pulu07321' | sudo -S git -C /home/admin/web/webhook.kote2.tokyo/public_html/webhook_test pull" // mainブランチ
 );
