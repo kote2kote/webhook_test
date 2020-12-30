@@ -8,4 +8,6 @@ var_dump( $ret );
 echo "\n# system関数\n";
 var_dump( system('ls', $ret) );
 var_dump( $ret );
+
+exec('call git status', $output);
  ?>
